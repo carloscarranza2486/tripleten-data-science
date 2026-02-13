@@ -1,0 +1,16 @@
+clients = [
+    [32456, "Jack Wilson", 32, 150000, "Healthcare"],
+    [34591, "Nina Brown", 45, 250000, "Telecom"],
+    [37512, "Alex Smith", 39, 210000, "IT"]
+]
+
+for client in clients:
+    client_info = {
+        "id": client[0],
+        "client_name": client [1],
+        "age": client[2],
+        "yearly_income": client[3],
+        "work_field": client[4]
+    }
+    print(client_info)
+
