@@ -17,7 +17,7 @@ for client in clients:
 	income = client[3]
 
 	if field not in incomes_per_field:
-		incomes_per_field[field] = []
+		incomes_per_field[field] = [income]
 	# comprueba si el campo extraído NO está en el diccionario incomes_per_field
 		# añade un nuevo campo como clave y establece una lista como valor 
 	else: # si el campo extraído está en el diccionario incomes_per_field
