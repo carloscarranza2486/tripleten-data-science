@@ -20,14 +20,21 @@ inventory = [
 def check_availability(titulo):
     available = False
     for dict in inventory:
-        if dict["titulo"] == titulo:
+        if dict["titulo"] == titulo and dict["disponible"] == True:
             available = True
-        else:
+            break
+        elif dict["titulo"] == titulo and dict["disponible"] == False:
             available = False
+            break
+        else:
+            dict["titulo"] != titulo
+            available = None
     if available == True:
-        print(f'{titulo} está disponible.')
-    else:
-        print(f'{titulo} no está disponible.')
+        print(f"'{titulo}' está disponible.")
+    elif available == False:
+        print(f"'{titulo}' no está disponible.")
+    else: 
+        print(f"'{titulo}' no está en el inventario.")
             
     #2 Crear un bucle para recorrer cada libro
     #3 Revisar si el libro está en el inventario y su estado es "disponible"
