@@ -1,0 +1,23 @@
+# Variable global que representa el saldo bancario inicial
+balance = 1000
+
+# Muestra el saldo inicial
+print(f"Saldo inicial: {balance}")
+
+# Función para realizar una operación de depósito
+def deposit_money(amount):
+    global balance  # Accede a la variable global 'balance'
+    local_balance = balance  # Variable local para realizar un seguimiento del saldo temporal
+    
+    #Completa el código aquí actualizando local_balance
+    local_balance += amount
+    
+    # Actualiza el saldo global
+    balance = local_balance
+
+# Realiza operaciones de depósito
+deposit_money(200)  # Depositar 200
+print(f"Saldo global actualizado: {balance}")
+
+deposit_money(150)  # Depositar 150
+print(f"Saldo global actualizado: {balance}")
