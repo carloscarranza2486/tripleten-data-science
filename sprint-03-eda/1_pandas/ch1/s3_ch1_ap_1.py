@@ -1,0 +1,16 @@
+import pandas as pd
+
+data = {
+    "product_id": [101, 102, 103],
+    "product_name": ["Laptop", "Smartphone", "Tablet"],
+    "price": [1500, 800, 300],
+    "category": ["Electronics", "Electronics", "Electronics"],
+}
+
+df = pd.DataFrame(data)
+
+data_types = df.dtypes
+column_names = df.columns
+
+print(data_types)
+print(column_names)
