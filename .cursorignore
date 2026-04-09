@@ -1,0 +1,8 @@
+.venv/
+**/.venv/
+**/node_modules/
+**/.git/
+**/datasets/
+*.csv
+*.xlsx
+*.ipynb_checkpoints/
