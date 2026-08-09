@@ -3,3 +3,5 @@ Thumbs.db
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# material didáctico del bootcamp, no se publica
+learning_material/
