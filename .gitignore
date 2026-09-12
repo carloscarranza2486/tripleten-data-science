@@ -6,3 +6,7 @@ __pycache__/
 # material didáctico del bootcamp, no se publica
 learning_material/
 *.pdf
+# instrucciones internas para Claude, no se publican
+CLAUDE.md
+INSTRUCCIONES_PROYECTOS.md
+.claude/
