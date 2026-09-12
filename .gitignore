@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 # material didáctico del bootcamp, no se publica
 learning_material/
+*.pdf
