@@ -10,3 +10,6 @@ learning_material/
 CLAUDE.md
 INSTRUCCIONES_PROYECTOS.md
 .claude/
+
+# registros que CatBoost genera al entrenar
+catboost_info/
